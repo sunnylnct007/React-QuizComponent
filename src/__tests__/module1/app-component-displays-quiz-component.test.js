@@ -15,6 +15,7 @@ try {
 
 let fs = require('fs');
 
+
 describe('App Component', () => {
   it('renders Quiz component @app-component-displays-quiz-component', () => {
     assert(quizComponentExists, "The Quiz component hasn't been created yet.")
